@@ -4,11 +4,12 @@
         <meta charset="utf-8">
         <title>VueJS Tutorials</title>
         <link href="styles.css" rel="stylesheet" />
-        <script src="https://unpkg.com/vue"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0/dist/vue.js"></script>
     </head>
     <body>
         <div id="vue-app">
-            <h1>Hey, {{ name }}</h1>
+          <h1>{{ greet('Night') }}</h1>
+          <p>Hey, {{ name }}</p>
         </div>
     </body>
 
